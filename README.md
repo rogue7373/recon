@@ -62,7 +62,16 @@ tcpclient script, will provide a basic TCP connection back to the server.
 
 Script Name: networkfloodz.py 
 
-modules: Scapy installed with pip install scapy
+** Warning ** 
+This tool should be used to generate traffic only and not for malicious purposes.
+
+modules: Scapy installed with pip install scapy.
+
+User input for choice of Source, Target. 
+
+by changing range(100,150) to an increased number will generate more packets. 
+
+Example: range(100, 20000000) will send a large number of packets. 
 
 
 
