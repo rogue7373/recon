@@ -49,3 +49,10 @@ sess_.storbinary
 
 Script will grab the active screen and upload it to a remote FTP session. Once the screenshot has been taken, exfilled to FTP the script will then close the file and the FTP session. 
 
+*********************************************************
+
+# Network socket TCP Server / TCP Client 
+
+tcpserver script, creates a TCP Server listening on a specified port. 
+
+tcpclient script, will provide a basic TCP connection back to the server. 
