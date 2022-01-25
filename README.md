@@ -1,4 +1,4 @@
-# GeoLocaiton Recon
+# GeoLocation Recon
 Python Scripts for OSINT
 This python script will provide insight into IP address related to hostnames, provide geo location information. 
 
@@ -56,3 +56,13 @@ Script will grab the active screen and upload it to a remote FTP session. Once t
 tcpserver script, creates a TCP Server listening on a specified port. 
 
 tcpclient script, will provide a basic TCP connection back to the server. 
+
+*********************************************************
+# Network Floodz with Scapy
+
+Script Name: networkfloodz.py 
+
+modules: Scapy installed with pip install scapy
+
+
+
