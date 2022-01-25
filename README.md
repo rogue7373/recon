@@ -83,4 +83,6 @@ Word press admin brute force tool.
 
 This has not been tested, however, this was designed after a working script. 
 
+Update password_dictionary.txt to a wordlist of your choice. 
+
 For testing outside of Local Host (127.0.0.1) please update any local host name or IP addressing to match the target host and IP addressing. 
