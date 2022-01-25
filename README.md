@@ -73,5 +73,14 @@ by changing range(100,150) to an increased number will generate more packets.
 
 Example: range(100, 20000000) will send a large number of packets. 
 
+*********************************************************
 
+# Word Press Brute Force
 
+** WARNING ** This is a tool for testing ** Not intended for malicious use **
+
+Word press admin brute force tool. 
+
+This has not been tested, however, this was designed after a working script. 
+
+For testing outside of Local Host (127.0.0.1) please update any local host name or IP addressing to match the target host and IP addressing. 
