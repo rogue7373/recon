@@ -89,7 +89,7 @@ For testing outside of Local Host (127.0.0.1) please update any local host name 
 
 *********************************************************
 
-#Sub-Domain Recon
+# Sub-Domain Recon
 
 This script will crawl subdomains for a provided domain. 
 
@@ -97,3 +97,8 @@ Allows for custom sub-domain list to be provided within the script, saved in the
 
 This could be modified to pull a sub-domain list from an API or outside source. 
 
+*********************************************************
+
+# Python Password/Hash cracker
+
+Script to crack hashes created in python
