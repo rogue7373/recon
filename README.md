@@ -14,3 +14,22 @@ Location: 38.8951,-77.0364
 Region: Washington, D.C.
 City: Washington
 Country: US
+
+*********************************************************
+
+Port Scanner 
+
+Example usage -- python3 portscanner_nmap.py <IPADDRESS>
+
+Example output -- 
+
+Scanning 127.0.0.1 for ports 21,22,80,139,443,8080...
+
+Port 21  is  closed
+Port 22  is  open
+Port 80  is  closed
+Port 139  is  closed
+Port 443  is  closed
+Port 8080  is  closed
+
+Host 127.0.0.1  is  up
