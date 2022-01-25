@@ -3,6 +3,7 @@
 import sys
 import requests
 import socket
+import json
 
 if len(sys.argv) > 2:
     print("Usage: " + sys.argv[0] + "<url>")
@@ -15,4 +16,13 @@ gethostby = socket.gethostbyaddr(sys.argv[1])
 print("\nThe IP address of " + sys.argv[1] + " is " + gethostby + "\n")
 
 #ipinfo.io API call 
-ipinfo = requests.get("https://ipinfo.io/" + sys.argv[1] + "/json")
+
+req_two = requests.get("https:/ipinfo.io/" +gethostby_+"/json")
+resp_ = json.loads(req_two.text)
+
+print("Location: "+resp_["loc"])
+print("Region: "+resp_["region"])
+print("City: "+resp_["city"])
+print("Country: "+resp_["country"])
+
+
