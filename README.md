@@ -102,3 +102,9 @@ This could be modified to pull a sub-domain list from an API or outside source.
 # Python Password/Hash cracker
 
 Script to crack hashes created in python
+
+*********************************************************
+
+# MAC Address Spoofing Script
+
+Change the MAC Address on a given machine. 
