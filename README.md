@@ -1,4 +1,4 @@
-# recon
+# GeoLocaiton Recon
 Python Scripts for OSINT
 This python script will provide insight into IP address related to hostnames, provide geo location information. 
 
@@ -17,7 +17,7 @@ Country: US
 
 *********************************************************
 
-Port Scanner 
+# Port Scanner with NMAP
 
 Example usage -- python3 portscanner_nmap.py <IPADDRESS>
 
@@ -36,7 +36,7 @@ Host 127.0.0.1  is  up
 
 *********************************************************
 
-Screen Grabber that uploads to remote FTP /tmp folder 
+# Screen Grabber with WX Python that uploads to remote FTP /tmp folder 
 
 Please change the following within the script to point to the FTP Server:
 
