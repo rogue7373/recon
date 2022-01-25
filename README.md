@@ -108,3 +108,9 @@ Script to crack hashes created in python
 # MAC Address Spoofing Script
 
 Change the MAC Address on a given machine. 
+
+*********************************************************
+
+# SSID Finder 
+
+This script is used to find hidden SSIDs in the network.
