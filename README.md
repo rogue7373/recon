@@ -38,7 +38,14 @@ Host 127.0.0.1  is  up
 
 Screen Grabber that uploads to remote FTP /tmp folder 
 
-Please change the <FTP SERVER ADDRESS> <USERNAME> <PASSWORD>
+Please change the following within the script to point to the FTP Server:
+
+FTP SERVER ADDRESS
+USERNAME
+PASSWORD
+
+You can also change the file destination by changing the:
+sess_.storbinary 
 
 Script will grab the active screen and upload it to a remote FTP session. Once the screenshot has been taken, exfilled to FTP the script will then close the file and the FTP session. 
 
